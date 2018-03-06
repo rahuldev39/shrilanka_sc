@@ -24,9 +24,14 @@
 .fullwidth-section.dark-bg {
     background-color: #f5f4e7;
     padding: 80px 0px;
+    background: url(./../images/service-bg.jpg) no-repeat top;
+background-size: cover;
 }
 .block-heading{
   text-align: center;
+}
+.block-heading h3 {
+    color: #fec63c;
 }
 .sidebar-link .link-btn {
     display: block;
@@ -48,7 +53,7 @@
     margin-right: 10px;
 }
 .judge-list li {
-    border-bottom: 1px solid #e8e7d1;
+    border-bottom: 1px solid #ffffff14;
     padding-bottom: 6px;
     margin-bottom: 4px;
 }
@@ -56,6 +61,144 @@
   border-bottom: 0px solid #e8e7d1;
   padding-bottom: 0px;
   margin-bottom: 0px;
+}
+.about {
+    background: #fffffc;
+    -webkit-box-shadow: 0 0 20px rgba(1,1,1,.19);
+    -moz-box-shadow: 0 0 20px rgba(1,1,1,.19);
+    box-shadow: 0 0 20px rgba(1,1,1,.19);
+    padding: 50px;
+    z-index: 1000;
+    position: relative;
+    border: 1px solid #eee;
+    display: inline-block;
+
+}
+.welcomeWrap h1 {
+    font-size: 29px !important;
+}
+h1 span {
+    color: #b11016;
+    font-weight: bold;
+}
+.welcomeWrap p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #818080;
+}
+.welImg {
+    position: absolute;
+    top: 83px;
+    right: 0;
+    width: 50%;
+}
+.welImg span {
+    display: inline-block;
+    position: relative;
+}
+.welImg span:before {
+    content: "";
+    border: 1px solid #fff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+.welcomeWrap {
+    padding: 130px 0;
+    position: relative;
+}
+.featured-links a {
+    background: #cc8809;
+    font-size: 12px;
+    color: #b31117;
+    border: 2px solid #b61218;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    padding: 9px 19px;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0 0 0 2em #fff inset;
+}
+.featured-links a:hover {
+    background: #9d0a0e;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 0 0 0px #a20d10 inset;
+}
+.view-block {
+    background-color: #82090dcc;
+    padding: 20px;
+    color: #d09f9e;
+    height: 100%;
+    border: 8px solid #4a1d1d2b;
+    border-top: 8px solid #b12728;
+    box-shadow: 0px 0px 219px #190000d1 inset;
+}
+.center-item {
+    justify-content: center;
+}
+.judge-list {
+
+}
+.links-section {
+    padding: 80px 0px;
+}
+.link-box {
+    background-color: #f7f5e4;
+    padding: 7px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    transition: all 300ms ease-in-out;
+    transform: scale(.90);
+    box-shadow: 0px 18px 17px -16px #696756;
+}
+.link-box:hover{
+transform: scale(1);
+}
+.link-box a {
+    display: block;
+    border: 1px solid #dad8cd;
+    padding: 15px;
+    background-color: #f7f3df;
+}
+.link-box i {
+    font-size: 36px;
+    height: 90px;
+    width: 90px;
+    margin: 0 auto;
+    border: 3px solid #b31117;
+    line-height: 65px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: #b51217;
+    background-color: #efebd4;
+}
+.link-box span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #500204;
+}
+@media screen and (max-width: 990px)
+{
+.welImg {
+    position: static;
+    width: auto;
+}
+.welImg {
+    text-align: center;
+}
+.welcomeWrap img {
+    text-align: center;
+}
+.welcomeWrap {
+    padding: 60px 0;
+}
 }
 @media (max-width: 992px){
   .view-block{
